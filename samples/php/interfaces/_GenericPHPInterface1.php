@@ -9,7 +9,8 @@
 interface _GenericPHPInterface1 {
     
     #metodos abstratos são de implementação brigatória
-    public abstract function genericMethod1();
-    public abstract function genericMethod2($attr1, $attr2);
+    #Não precisa usar a palavra abstract na declaração do método
+    public function genericMethod1();
+    public function genericMethod2($attr1, $attr2);
     
 }

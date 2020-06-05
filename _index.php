@@ -8,8 +8,8 @@
  */
 
     #importando classes PHP
-    require_once 'models/_GenericPHPModel1.php';
-    require_once 'models/_GenericPHPDaughterClass1.php';
+    require_once 'samples/php/classes/_GenericPHPModel1.php';
+    require_once 'samples/php/classes/_GenericPHPDaughterClass1.php';
     
 ?>
 

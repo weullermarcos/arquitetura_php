@@ -6,10 +6,12 @@
  * Criada em: xx/xx/20xx
  */
 
-#Classe controler modelo implementando interface
+require_once '../interfaces/_GenericPHPInterface1.php';
+
+#Classe controller modelo implementando interface
 class _GenericPHPController1 implements _GenericPHPInterface1{
     
-//put your code here
+
     public function genericMethod1() {
         
     }
