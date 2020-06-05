@@ -15,7 +15,7 @@
 
 
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<title>Arquitetura PHP</title>
 </head>
