@@ -1,12 +1,11 @@
 <?php
 
 /**
+ * Baseado em: arquitetura_php - Weuller Marcos
  * Interface: _GenericPHPAbstractClass.php
  * Autor: XXXXX
- * Criada em: xx/xx/20xx
+ * Criado em: xx/xx/20xx
  */
-
-#Criando uma classe abstrata
 abstract class _GenericPHPAbstractClass {
  
     #posso ter atribusto na classe abstrata

@@ -1,12 +1,11 @@
 <?php
 
 /**
+ * Baseado em: arquitetura_php - Weuller Marcos
  * Classe: _GenericPHPDaughterClass1.php
  * Autor: XXXXX
- * Criada em: xx/xx/20xx
+ * Criado em: xx/xx/20xx
  */
-
-#importando a classe _GenericPHPAbstractClass
 require_once '_GenericPHPAbstractClass.php';
 
 

@@ -1,11 +1,11 @@
 <?php
 
 /**
+ * Baseado em: arquitetura_php - Weuller Marcos
  * Classe: _GenericPHPMotherClass1.php
  * Autor: XXXXX
  * Criada em: xx/xx/20xx
  */
-
 class _GenericPHPMotherClass1 {
     
     private $motherAttr1;

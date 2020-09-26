@@ -1,12 +1,11 @@
 <?php
 
 /**
+ * Baseado em: arquitetura_php - Weuller Marcos
  * Classe: _GenericPHPModel1.php
  * Autor: XXXXX
- * Criada em: xx/xx/20xx
+ * Criado em: xx/xx/20xx
  */
-
-#importando classe _GenericPHPModel2
 require_once '_GenericPHPModel2.php';
 
 

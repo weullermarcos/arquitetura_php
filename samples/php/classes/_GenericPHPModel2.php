@@ -1,11 +1,11 @@
 <?php
 
 /**
+ * Baseado em: arquitetura_php - Weuller Marcos
  * Classe: _GenericPHPModel2.php
  * Autor: XXXXX
  * Criada em: xx/xx/20xx
  */
-
 class _GenericPHPModel2 {
     //put your code here
     
