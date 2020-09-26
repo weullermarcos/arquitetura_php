@@ -1,0 +1,39 @@
+
+/**
+ * Baseado em: arquitetura_php - Weuller Marcos
+ * Arquivo: table.css
+ * Autor: Weuller Marcos
+ * Criado em: 23/06/2020
+ */
+
+
+.tableModificado {
+    
+    width: 100%;  
+    border-collapse: collapse;   
+}
+
+.thModificado {
+    height: 50px;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.tdModificado {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+}
+
+
+
+table {
+    
+    /*width: 100%;*/
+    
+}
+
+
+
+
