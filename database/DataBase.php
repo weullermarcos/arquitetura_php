@@ -1,7 +1,5 @@
 <?php
 
-require_once './config/config.php';
-
  /**
  * Baseado em: arquitetura_php - Weuller Marcos
  * Classe: DataBase.php
@@ -12,9 +10,18 @@ abstract class DataBase {
     
     protected $mysqli;
     protected $sql;
-    protected $mysqlError;
+    protected $mysqlError = "";
     
-        
+    
+    function getMysqlError() {
+        return $this->mysqlError;
+    }
+
+    function setMysqlError($mysqlError) {
+        $this->mysqlError = $mysqlError;
+    }
+
+            
     /**
      * Abre conexão com a base de dados 
      * @return bool <p>Retorna true caso conecte com sucesso e false caso dê erro.</p>
@@ -22,7 +29,6 @@ abstract class DataBase {
     public function connectDatabase(){
         
         $this->mysqli = new mysqli(SERVERNAME, USERNAME, PASSWORD, DBNAME);
-        
         $this->mysqli->set_charset("utf8");
         
         if ($this->mysqli->connect_error) {

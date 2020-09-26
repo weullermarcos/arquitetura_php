@@ -17,7 +17,7 @@ include ('config.php'); //importando configurações do projeto
     <head>
         <meta charset="UTF-8">
         
-        <title><?php echo PROJECT_NAME;?></title>
+        <title><?php echo PROJECT_NAME; ?></title>
           
     </head>
     <body>
