@@ -12,9 +12,10 @@ define('BASE_URL','http://localhost/arquitetura_php/');
 
 
 /*Comuns*/
-define('LOGIN'                         , BASE_URL . 'controllers/loginController.php');
-define('LOGOUT'                        , BASE_URL . 'controllers/logoutController.php');
-define('PERFIL'                        , BASE_URL . 'controllers/perfilController.php');
-define('ALTERAR_SENHA'                 , BASE_URL . 'controllers/alterarSenhaController.php');
+define('LOGIN_CONTROLLER'         , BASE_URL . 'controllers/loginController.php');
+define('LOGOUT_CONTROLLER'        , BASE_URL . 'controllers/logoutController.php');
+define('PERFIL_CONTROLLER'        , BASE_URL . 'controllers/perfilController.php');
+define('ALTERAR_SENHA_CONTROLLER' , BASE_URL . 'controllers/alterarSenhaController.php');
+
 
 ?>

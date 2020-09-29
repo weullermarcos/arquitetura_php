@@ -55,7 +55,7 @@ include ('../config.php');      #importando arquivo de configurações do projet
         <div class="wrapper-page animated fadeInDown">
             <div class="panel panel-color panel-primary">
                 <div class="panel-heading"> 
-                   <h3 class="text-center m-t-10"> Sign In to <strong>Velonic</strong> </h3>
+                   <h3 class="text-center m-t-10"><strong><?php echo PROJECT_NAME;?></strong> </h3>
                 </div> 
 
                 <form class="form-horizontal m-t-40" action="index.html">
