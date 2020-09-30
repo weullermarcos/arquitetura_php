@@ -2,7 +2,7 @@
 
 /**
  * Baseado em: arquitetura_php - Weuller Marcos
- * Arquivo: administradorView.php
+ * Arquivo: dashboardView.php
  * Autor: Weuller Marcos
  * Criado em: 31/08/2020
  */

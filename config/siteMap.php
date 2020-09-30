@@ -11,11 +11,15 @@
 define('BASE_URL','http://localhost/arquitetura_php/');
 
 
-/*Comuns*/
+/* Controllers: */
+define('ALTERAR_SENHA_CONTROLLER' , BASE_URL . 'controllers/alterarSenhaController.php');
 define('LOGIN_CONTROLLER'         , BASE_URL . 'controllers/loginController.php');
 define('LOGOUT_CONTROLLER'        , BASE_URL . 'controllers/logoutController.php');
 define('PERFIL_CONTROLLER'        , BASE_URL . 'controllers/perfilController.php');
-define('ALTERAR_SENHA_CONTROLLER' , BASE_URL . 'controllers/alterarSenhaController.php');
+
+
+/* Views: */
+define('DASHBOARD_VIEW'           , BASE_URL . 'views/dashboardView.php');
 
 
 ?>
