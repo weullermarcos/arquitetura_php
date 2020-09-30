@@ -13,11 +13,11 @@
     
     function desconectar(){
 
-        var r = confirm("<?php echo DESCONECTAR;?>");
+        var r = confirm("<?php echo DESEJA_DESCONECTAR;?>");
 
         if (r == true) {
 
-            var url2 = new URL("<?php echo LOGOUT?>");
+            var url2 = new URL("<?php echo LOGOUT_CONTROLLER?>");
             location.href = url2;
         } 
     }
