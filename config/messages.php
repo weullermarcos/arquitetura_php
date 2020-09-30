@@ -39,6 +39,8 @@ define('DINHEIRO'                         , 'Dinheiro');
 //E:
 
 define('EMAIL'                            , 'E-mail');
+define('EMAIL_RECUPERAR_SENHA'            , 'Digite o E-mail para recuperação da senha!');
+define('ENVIAR'                           , 'Enviar');
 define('ERRO_ALTERAR_SENHA'               , 'Erro ao alterar senha!');
 define('ERRO_LOGIN'                       , 'Erro ao realizar login!');
 define('ESCOLHA_REVENDEDOR'               , 'Escolha o Revendedor: ');

@@ -88,7 +88,7 @@ include ('../config.php');      #importando arquivo de configurações do projet
                     </div>
                     <div class="form-group m-t-30">
                         <div class="col-sm-7">
-                            <a href="#"><i class="fa fa-lock m-r-5"></i><?php echo ESQUECI_MINHA_SENHA;?></a>
+                            <a href="<?php echo RECUPERAR_SENHA_VIEW?>"><i class="fa fa-lock m-r-5"></i><?php echo ESQUECI_MINHA_SENHA;?></a>
                         </div>
                     </div>
                 </form>

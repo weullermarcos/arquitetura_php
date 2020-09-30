@@ -20,6 +20,7 @@ define('PERFIL_CONTROLLER'        , BASE_URL . 'controllers/perfilController.php
 
 /* Views: */
 define('DASHBOARD_VIEW'           , BASE_URL . 'views/dashboardView.php');
+define('RECUPERAR_SENHA_VIEW'     , BASE_URL . 'views/recuperarSenhaView.php');
 
 
 ?>
