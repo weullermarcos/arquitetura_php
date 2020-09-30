@@ -26,7 +26,6 @@ include ('../config.php');      #importando arquivo de configurações do projet
         <!-- Google-Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic' rel='stylesheet'>
 
-
         <!-- Bootstrap core CSS -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/bootstrap-reset.css" rel="stylesheet">
@@ -58,17 +57,17 @@ include ('../config.php');      #importando arquivo de configurações do projet
                    <h3 class="text-center m-t-10"><strong><?php echo PROJECT_NAME;?></strong> </h3>
                 </div> 
 
-                <form class="form-horizontal m-t-40" action="index.html">
+                <form class="form-horizontal m-t-40" id="formLogin" class="modal-content animate" method="POST" action="<?php echo LOGIN_CONTROLLER;?>">
                                             
                     <div class="form-group ">
                         <div class="col-xs-12">
-                            <input class="form-control" type="text" placeholder="Username">
+                            <input class="form-control" type="email" name="email" placeholder="<?php echo EMAIL;?>" maxlength="45" required="required">
                         </div>
                     </div>
                     <div class="form-group ">
                         
                         <div class="col-xs-12">
-                            <input class="form-control" type="password" placeholder="Password">
+                            <input class="form-control" type="password" placeholder="<?php echo SENHA;?>" name="senha" maxlength="45" required="required">
                         </div>
                     </div>
 
@@ -77,30 +76,25 @@ include ('../config.php');      #importando arquivo de configurações do projet
                             <label class="cr-styled">
                                 <input type="checkbox" checked>
                                 <i class="fa"></i> 
-                                Remember me
+                                <?php echo LEMBRE_ME;?>
                             </label>
                         </div>
                     </div>
                     
                     <div class="form-group text-right">
                         <div class="col-xs-12">
-                            <button class="btn btn-purple w-md" type="submit">Log In</button>
+                            <button class="btn btn-purple w-md" type="submit"><?php echo LOGIN;?></button>
                         </div>
                     </div>
                     <div class="form-group m-t-30">
                         <div class="col-sm-7">
-                            <a href="recoverpw.html"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
-                        </div>
-                        <div class="col-sm-5 text-right">
-                            <a href="register.html">Create an account</a>
+                            <a href="#"><i class="fa fa-lock m-r-5"></i><?php echo ESQUECI_MINHA_SENHA;?></a>
                         </div>
                     </div>
                 </form>
 
             </div>
         </div>
-
-    
 
 
         <!-- js placed at the end of the document so the pages load faster -->
@@ -109,7 +103,6 @@ include ('../config.php');      #importando arquivo de configurações do projet
         <script src="../js/pace.min.js"></script>
         <script src="../js/wow.min.js"></script>
         <script src="../js/jquery.nicescroll.js" type="text/javascript"></script>
-            
 
         <!--common script for all pages-->
         <script src="../js/jquery.app.js"></script>
