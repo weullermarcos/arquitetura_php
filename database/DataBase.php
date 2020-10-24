@@ -33,7 +33,7 @@ abstract class DataBase {
         
         if ($this->mysqli->connect_error) {
             
-            $this->mysqlError = "Erro ao conectar com o banco de dados";
+            $this->mysqlError = "Erro ao conectar com o banco de dados: " . $this->mysqli->connect_error;
             return false;
         }
         else{
