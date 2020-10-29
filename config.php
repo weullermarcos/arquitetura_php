@@ -42,7 +42,7 @@ define('LOG_FILE','log.txt');
 */
 function getFooterMessage(){
     
-    $rodaPe = PROJECT_NAME . " | Copyright - " . getCurrentYear() . " | All Rights Reserved";
+    $rodaPe = PROJECT_NAME . " | Copyright - " . getCurrentYear() . " | All Rights Reserved | Desenvolvido por <a href='http://outlier.tec.br/' target='_blank'>Outlier.tec</a>";
 
     return $rodaPe;
 }
