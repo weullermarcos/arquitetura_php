@@ -37,25 +37,11 @@
     <!-- Right navbar -->
     <ul class="list-inline navbar-right top-menu top-right-menu">  
 
-        <?php   
-            if(!is_null($_SESSION['idDistribuidora'])){
-        ?>        
-            <!-- Notificações -->
-            <li class="dropdown">
-                <a data-toggle="dropdown" class="dropdown-toggle" onclick="meusPedidos()">
-                    <i class="fa fa-bell-o"></i>
-                    <span id='spnNumeroPedidos' class='badge badge-sm up bg-pink count'>0</span>
-                </a>
-            </li>
-        <?php        
-            }
-        ?>
-
         <!-- user login dropdown start-->
         <li class="dropdown text-center">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                 <img alt="" src="../img/avatar-2.jpg" class="img-circle profile-img thumb-sm">
-                <span class='username'>Usuário 1</span> <span class='caret'></span>
+                <span class='username'>Usuario 1</span> <span class='caret'></span>
                 
             </a>
             <ul class="dropdown-menu extended pro-menu fadeInUp animated" tabindex="5003" style="overflow: hidden; outline: none;">
